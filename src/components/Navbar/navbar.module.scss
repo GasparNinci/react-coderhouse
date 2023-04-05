@@ -5,7 +5,7 @@
     display: flex;
 }
 
-.container ul{
+.container div{
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -14,13 +14,13 @@
     align-items: center;
 }
 
-.container ul li a{
+.navbarItem{
     text-decoration: none;
     color: #fefefe;
     font-size: 2rem;
     
     &:hover {
-        font-size: 2.3rem;
-        height: 1.5rem;
+        color: rgb(33, 33, 218);
+        font-size: 2.2rem;
     }
 }

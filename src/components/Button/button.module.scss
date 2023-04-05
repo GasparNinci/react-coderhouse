@@ -1,0 +1,21 @@
+.botonCarrito {
+    margin-top: 1rem;
+    border-radius: 300px;
+    width: 4.5rem;
+    height: 3rem;
+    background-color: black;
+    transition: all .3s;
+    cursor: pointer;
+    
+    img {
+    width: 4rem;
+    height: 2.9rem;
+    padding-bottom: .2rem;
+    
+    }
+    &:hover{
+        width: 5rem;
+        height: 3.2rem;
+    }
+
+}
